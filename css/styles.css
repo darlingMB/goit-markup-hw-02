@@ -32,17 +32,24 @@ body {
   font-size: 18px;
   line-height: 1.17;
 
-  /* display: flex;
-  align-items: center; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--iris);
 }
 
+.logo:hover {
+  color: var(--ocean);
+}
+
+.contacts-menu-item:hover {
+  color: var(--ocean);
+}
+
 .logo-accent {
   color: var(--navy-blue);
 }
+
 
 a {
   text-decoration: none;
@@ -59,6 +66,10 @@ a {
 
 .menu {
   list-style: none;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contacts-menu {
@@ -78,7 +89,7 @@ a {
 }
 
 .btn:hover, .btn:focus {
-    background-color: var(--ocean);
+  background-color: var(--ocean);
 }
 
 h2 {
@@ -126,11 +137,16 @@ h3 {
 .team-list {
   list-style: none;
   text-align: center;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .portfolio-list {
   list-style: none;
+}
+
+.portfolio-list-title {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 footer {
@@ -140,6 +156,7 @@ footer {
 .footer-logo-accent {
   color: var(--cloud);
 }
+
 p {
   font-size: 16px;
 }
