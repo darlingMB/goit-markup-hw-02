@@ -42,7 +42,7 @@ body {
   color: var(--ocean);
 }
 
-.contacts-menu-item:hover {
+.contacts-menu-item:hover, .contacts-menu-item:focus {
   color: var(--ocean);
 }
 
@@ -148,7 +148,7 @@ h3 {
   list-style: none;
 }
 
-.portfolio-list-title {
+.portfolio-title {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
