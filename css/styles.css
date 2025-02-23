@@ -37,11 +37,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--navy-blue);
+  color: var(--iris);
 }
 
 .logo-accent {
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 a {
@@ -67,6 +67,7 @@ a {
 
 .btn {
   font-family: var(--font-family);
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -74,11 +75,10 @@ a {
 
   background: var(--iris);
   cursor: pointer;
+}
 
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+.btn:hover, .btn:focus {
+    background-color: var(--ocean);
 }
 
 h2 {
@@ -118,10 +118,15 @@ h3 {
 .team {
   background: var(--cloud);
 }
+.team-title {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 
 .team-list {
   list-style: none;
   text-align: center;
+  background: #FFFFFF;
 }
 
 .portfolio-list {
@@ -132,12 +137,9 @@ footer {
   background: var(--navy-blue);
   color: var(--cloud);
 }
-
-.footer-logo {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer-logo-accent {
+  color: var(--cloud);
+}
+p {
+  font-size: 16px;
 }
